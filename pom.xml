@@ -2,18 +2,18 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>guru.springframework.petclinic</groupId>
-    <artifactId>tb2g-testing-spring</artifactId>
+    <groupId>org.springframework.petclinic</groupId>
+    <artifactId>tdd-spring</artifactId>
     <version>5.1.0</version>
 
-    <name>tb2g-testing-spring</name>
+    <name>tdd-spring</name>
     <packaging>war</packaging>
     <description>*** FORK FROM ORIGINAL SPRING PROJECT TO DEMO TESTING FEATURES OF SPRING *** A Spring Framework application based on JSP, Spring MVC, Spring Data JPA, Hibernate and JDBC</description>
     <url>https://github.com/spring-petclinic/</url>
 
     <properties>
         <!-- Generic properties -->
-        <java.version>11</java.version>
+        <java.version>8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
